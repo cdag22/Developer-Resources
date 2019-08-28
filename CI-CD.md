@@ -92,25 +92,25 @@ Offer
 - Checkout [Blue Ocean plugin](https://jenkins.io/doc/book/blueocean/) for pipeline UI
 - Configurable in web UI or a **Jenkinfile** based on the [Groovy language](https://groovy-lang.org/documentation.html)
 
-### [Bamboo]()
+### [Bamboo](https://www.atlassian.com/continuous-delivery)
 
 - Tight integration with other **Atlassian** products such as *Bitbucket*
 - Configurable in web UI or a **YAML** or **Java** file
 
-### [TeamCity]()
+### [TeamCity](https://www.jetbrains.com/teamcity/)
 
 - Tight integration with **JetBrains IDEs** and **Visual Studio**
 - Can automatically configure jobs based on project code
 - Configured in web UI or **XML** or **Kotlin**
 
-### [GoCD]()
+### [GoCD](https://www.gocd.org/)
 
 - Focuses on using pipelines
 - Pipelines are made of stages, jobs, and tasks
 - Configured from the web UI or **XML** and plugins for working in **JSON** or **YAML**
 - Shared commands are found in the Go Command Repo
 
-### [Travic CI]()
+### [Travic CI](https://travis-ci.org/)
 
 - Go to choice for open source projects
 - **ONLY works with projects on Github**
@@ -119,13 +119,13 @@ Offer
 - Many third-party applications, clients, tools, and libraries
 - Can add a build status icon and list in ```README.md```
 
-### [CodeShip]()
+### [CodeShip](https://codeship.com/)
 
 - Can connect to repos in Bitbucket, Github, or Gitlab
 - Has Basic and Pro version
 - Pro comes with dedicated VMs, docker support, and customization in **YAML** files
 
-### [CircleCI]()
+### [CircleCI](https://circleci.com/)
 
 - Uses docker containers for running jobs
 - Works through docker images in Ubuntu, Windows, and MacOS X
@@ -134,7 +134,7 @@ Offer
 - *Orbs* are shareable packages of CircleCI configurations
 - Offers command-line tool for development
 
-### AWS [CodePipeline]() and [CodeBuild]()
+### AWS [CodePipeline](https://aws.amazon.com/codepipeline/) and [CodeBuild](https://aws.amazon.com/codebuild/)
 
 - Takes input for GitHub, AWS CodeCommit, AWS S3, or Amazon ECR
 - Works with Linux, Windows, and MacOS X
@@ -144,7 +144,7 @@ Offer
 - CodeBuild is free fro 100 minutes/month on the smallest instance
 - **MASSIVE** customization
 
-### [Azure Pipelines]()
+### [Azure Pipelines](https://azure.microsoft.com/en-us/)
 
 - Access to other resources in Azure, can deploy to other resources on Azure
 - Open-source projects have unlimited build time and 10 parallel job times
@@ -152,7 +152,7 @@ Offer
 - Works with Linux, Windows, and MacOS X
 - Configurable in ```azure-pipelines.yml```
 
-### [CloudBuild]() (previously Container Build)
+### [CloudBuild](https://cloud.google.com/cloud-build) (previously Container Build)
 
 - can access other Google Cloud Platform services
 - First 120 builds-minutes per day are free
@@ -161,7 +161,7 @@ Offer
 - Configurable through ```cloudbuild.yaml``` or ```cloudbuild.json```
 - For projects that only need a container image the build file can be ommited and a **Dockerfile** can be used instead
 
-### [GitHub Actions]()
+### [GitHub Actions](https://github.com/features/actions)
 
 - Best git source management
 - Free unlimited public and private repositories
@@ -172,14 +172,14 @@ Offer
 - Limited to 58 minutes of execution and 100 Actions
 - Clicking into the ```main.workflow``` gives a graphical view of the **Pipeline**
 
-### [GitLab]()
+### [GitLab](https://about.gitlab.com)
 
 - Open source product
 - Container registery
 - Free unlimited public and private repositories
 - Configurable through ```.gitlab-ci.yml```
 
-### [BitBucket Pipelines]()
+### [BitBucket Pipelines](https://bitbucket.org/product/features/pipelines)
 
 - Source code management for **Git** and **Mercurial**
 - Jira and Trello Integration
